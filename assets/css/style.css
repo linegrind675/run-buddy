@@ -1,14 +1,13 @@
+:root {
+    --primary-color: #fce138;
+    --secondary-color: #024e76;
+    --tertiary-color: #39a6b2;
+}
 
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-:root {
-    --primary-color: #fce138;
-    --secondary-color: #024e76;
-    --tertiary-color: #39a6b2;
 }
 
 body {
@@ -40,6 +39,7 @@ body {
       color: var(--primary-color);
       margin: 0px;
       display: inline;
+      text-shadow: 0 0 10px rgba(0,0,0,0.5);
   }
 
   header a {
@@ -225,7 +225,7 @@ body {
       position: absolute;
       left: -29px;
       top: 1px;
-      background-image: radial-gradient(circle, var(--tertiary-color), (--secondary-color);
+      background-image: radial-gradient(circle, var(--tertiary-color), (--secondary-color));
   }
 
   .checkbox-wrapper label::after {
